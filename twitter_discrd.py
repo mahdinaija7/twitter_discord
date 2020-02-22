@@ -3,7 +3,7 @@ import discord
 from time import sleep
 import asyncio
 
-dicord_token="NjAwMTI4MTkwMjg3MTgzODcy.XSvPEA.bTSIKVbH2DImaJCoqGmpRgeQApY"
+dicord_token="your token"
 
 consumer_key= 'yourkeyhere'
 consumer_secret= 'yourkeyhere'
@@ -15,7 +15,7 @@ auth.set_access_token(access_token,access_token_secret)
 api=tp.API(auth)
 
 client=discord.Client()
-discord_channel_id='600129115999174657'
+discord_channel_id='channel id '
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
